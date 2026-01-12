@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "accuracy": 0.906,
+      "f1": 0.8846609028967555,
+      "model": "Stacking"
+    },
+    {
+      "accuracy": 0.8933333333333333,
+      "f1": 0.8671305820470261,
+      "model": "RandomForest"
+    },
+    {
+      "accuracy": 0.8933333333333333,
+      "f1": 0.8671305820470261,
+      "model": "HistGradientBoosting"
+    },
+    {
+      "accuracy": 0.795,
+      "f1": 0.7366378285483551,
+      "model": "DecisionTree"
+    },
+    {
+      "accuracy": 0.7236666666666667,
+      "f1": 0.6651282116538167,
+      "model": "LogisticRegression(scaled)"
+    },
+    {
+      "accuracy": 0.5426666666666666,
+      "f1": 0.2345145491212907,
+      "model": "Dummy(most_frequent)"
+    }
+  ]
+}
