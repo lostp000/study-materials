@@ -3,8 +3,14 @@
   "test_metrics": {
     "accuracy": 0.906,
     "f1": 0.8846609028967555,
-    "model": "Stacking"
+    "roc_auc": null
   },
   "search_summary": null,
-  "random_state": 42
+  "random_state": 42,
+  "dataset": "S06-hw-dataset-03.csv",
+  "target_classes": [
+    0,
+    1,
+    2
+  ]
 }

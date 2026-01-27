@@ -1,4 +1,13 @@
 {
+  "HistGradientBoosting": {
+    "best_params": {
+      "hgb__learning_rate": 0.1,
+      "hgb__max_depth": 7,
+      "hgb__max_iter": 200,
+      "hgb__min_samples_leaf": 20
+    },
+    "best_cv_f1_macro": 0.871864825021442
+  },
   "LogisticRegression(scaled)": {
     "best_params": {
       "logreg__C": 1.0,
@@ -25,13 +34,13 @@
     },
     "best_cv_f1_macro": 0.840198641267911
   },
-  "HistGradientBoosting": {
+  "GradientBoosting": {
     "best_params": {
-      "hgb__learning_rate": 0.1,
-      "hgb__max_depth": 7,
-      "hgb__max_iter": 200,
-      "hgb__min_samples_leaf": 20
+      "gb__learning_rate": 0.1,
+      "gb__max_depth": 5,
+      "gb__min_samples_leaf": 10,
+      "gb__n_estimators": 150
     },
-    "best_cv_f1_macro": 0.871864825021442
+    "best_cv_f1_macro": 0.8531113134372881
   }
 }
