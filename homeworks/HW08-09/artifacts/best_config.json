@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E4",
+  "dataset": "CIFAR10",
+  "seed": 42,
+  "architecture": {
+    "input_size": 3072,
+    "hidden_sizes": [
+      512,
+      256,
+      128
+    ],
+    "num_classes": 10,
+    "activation": "ReLU",
+    "dropout_p": 0.0,
+    "use_batchnorm": true
+  },
+  "training": {
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "batch_size": 64,
+    "epochs": 10,
+    "early_stopping_patience": 4
+  },
+  "results": {
+    "best_val_accuracy": 0.5543,
+    "best_val_loss": 1.2788341386795044,
+    "test_accuracy": 0.5414,
+    "test_loss": 1.2924682247161865
+  }
+}

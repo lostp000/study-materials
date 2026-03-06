@@ -1,0 +1,8 @@
+experiment_id,dataset,seed,model_summary,optimizer,lr,momentum,weight_decay,epochs_trained,best_val_accuracy,best_val_loss
+E1,CIFAR10,42,"hidden=[512,256,128], activation=ReLU",Adam,0.001,,0,20,0.5368,1.3893951843261718
+E2,CIFAR10,42,"hidden=[512,256,128], activation=ReLU, dropout=0.3",Adam,0.001,,0,20,0.5381,1.3494080513000488
+E3,CIFAR10,42,"hidden=[512,256,128], activation=ReLU, batchnorm",Adam,0.001,,0,20,0.5588,1.2951222122192383
+E4,CIFAR10,42,"hidden=[512, 256, 128], activation=ReLU, batchnorm",Adam,0.001,,0,10,0.5543,1.2788341386795044
+O1,CIFAR10,42,"hidden=[512, 256, 128], activation=ReLU, batchnorm",Adam,0.1,,0,6,0.4755,1.4688827987670898
+O2,CIFAR10,42,"hidden=[512, 256, 128], activation=ReLU, batchnorm",Adam,1e-05,,0,6,0.4994,1.4882660037994384
+O3,CIFAR10,42,"hidden=[512, 256, 128], activation=ReLU, batchnorm",SGD,0.01,0.9,0.0001,12,0.5434,1.3212943092346192
