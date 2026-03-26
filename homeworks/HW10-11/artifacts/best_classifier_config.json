@@ -1,0 +1,12 @@
+{
+  "experiment": "C4",
+  "model_type": "ResNet18",
+  "num_classes": 102,
+  "dataset": "Flowers102",
+  "seed": 42,
+  "best_val_accuracy": 0.9009803921568628,
+  "test_accuracy": 0.8786794600748089,
+  "augmentations": true,
+  "transfer_learning": true,
+  "fine_tune": true
+}
