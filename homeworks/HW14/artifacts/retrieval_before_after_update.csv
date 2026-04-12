@@ -1,0 +1,4 @@
+query,before_retrieved,after_retrieved,changed
+Как работает алгоритм K-Means?,"doc_03, doc_04, doc_10","doc_11, doc_03, doc_04",True
+Для чего используется PCA?,"doc_03, doc_02, doc_04","doc_12, doc_03, doc_13",True
+Что такое функция активации ReLU?,"doc_02, doc_03, doc_08","doc_13, doc_02, doc_03",True
